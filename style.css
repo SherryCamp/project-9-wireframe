@@ -1,0 +1,113 @@
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+body {
+  
+font-family: 'Lato', sans-serif;
+font-weight:400;
+
+background-image:linear-gradient(to right,rgba(255, 0, 255, 0.351), rgba(55, 42, 201, 0.584));
+
+} 
+
+
+h1,
+h5{
+font-family: 'Cinzel', serif;
+}
+
+
+
+/* setup borders */
+
+ main {
+      border:2px solid rgb(255, 0, 212);
+    padding: 20px;
+ }
+.container {
+   border:2px solid aqua;
+}
+.mynav-bkg {
+    background-color: slategray;
+
+}
+
+.mylogo{
+     border:2px solid rgba(0, 255, 98, 0.87);
+    background-color: rgb(218, 250, 215);
+    min-height: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+.mynav{
+     border:2px solid rgba(0, 255, 98, 0.87);
+    background-color: rgba(57, 16, 219, 0.699);
+    min-height: 200px;
+    margin: 20px 10px;
+    padding: 20px;
+}
+.myherobox {
+     border:2px solid rgba(0, 255, 98, 0.87);
+}
+/* .myherobox-a,
+.myherobox-b
+{
+    border:2px solid rgba(0, 255, 98, 0.87);
+    
+} */
+
+.my-hr {
+    
+  border: 2px solid springgreen;
+  padding: 2px;
+}
+
+section{
+ border:2px solid rgba(0, 255, 98, 0.87);
+ 
+}
+
+
+.nav-item {
+    border:2px solid rgba(0, 255, 98, 0.87);
+}
+
+
+
+.card {
+    padding:15px;
+    border: 2px solid rgb(38, 0, 255);
+}
+
+ footer{
+     padding: 20px;
+ }
+
+/* bootstrap breakpoints */
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {} 
+
